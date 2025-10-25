@@ -1,0 +1,448 @@
+@media only screen and (max-width: 575px) {
+  .container {
+    padding: 0 20px;
+  }
+  .logo {
+    width: 160px;
+  }
+  menu,
+  .nav_btn {
+    display: none;
+  }
+  .nav_wrapper .bar_icon {
+    display: block;
+  }
+  #banner {
+    padding: 200px 0 140px 0;
+  }
+  .banner_content .heading_text {
+    font-size: 28px;
+    max-width: 350px;
+  }
+  .banner_content {
+    row-gap: 35px;
+  }
+  .banner_btn .button {
+    font-size: 14px;
+    padding: 16px 20px !important;
+  }
+  #excitement {
+    padding: 40px 0;
+  }
+  #excitement .SectionHeading {
+    font-size: 25px;
+    max-width: 320px;
+  }
+  .excitement_content .line {
+    margin: 25px 0;
+  }
+  .excitement_wrapper .Paragraph {
+    font-size: 16px;
+  }
+  .excitement_content ul {
+    margin: 30px 0;
+    row-gap: 20px;
+  }
+  .excitement_content button {
+    padding: 15px 25px;
+    font-size: 16px;
+  }
+  .excitement_images {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  .excitement_images .excitement_image {
+    width: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .excitement_images .excitement_image:first-child {
+    height: 450px;
+  }
+  .excitement_images .excitement_image:last-child {
+    height: 400px;
+  }
+  .excitement_images .excitement_image img {
+    width: 100%;
+    height: 100%;
+  }
+  #excitement_counter {
+    margin: 30px 0 50px 0;
+  }
+  .Ex_Counter_box {
+    margin: auto;
+  }
+  #sports_activities {
+    padding: 60px 0;
+  }
+  .sports_activities_content_right {
+    width: 90%;
+  }
+  .sports_activities_cards {
+    justify-content: center;
+    row-gap: 25px;
+    padding-bottom: 40px;
+  }
+  .sports_activities_card {
+    width: 320px;
+    height: 420px;
+  }
+  .sports_activities_bottom_Heading {
+    font-size: 50px;
+  }
+  #adventures {
+    padding-top: 50px;
+  }
+  .adventures_logo {
+    width: 80px;
+  }
+  .adventures_content .SectionHeading {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  .adventures_content .h4 {
+    font-size: 20px;
+  }
+  .advaentures_buttons {
+    margin-top: 35px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .advaentures_buttons .button:last-child {
+    padding: 20px 17px 20px 17px;
+  }
+  .adventures_cards {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
+  }
+  .adventures_card {
+    width: 320px;
+    height: 420px;
+  }
+  .adventures_card_overlayer {
+    padding-left: 25px;
+    padding-bottom: 25px;
+  }
+  .adventures_card h3 {
+    font-size: 30px;
+  }
+  .adventures_card h4 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    padding: 0 25px;
+  }
+  .logo {
+    width: 180px;
+  }
+  menu,
+  .nav_btn {
+    display: none;
+  }
+  .nav_wrapper .bar_icon {
+    display: block;
+  }
+  #banner {
+    padding: 220px 0 140px 0;
+  }
+  .banner_content .heading_text {
+    font-size: 38px;
+    max-width: 440px;
+  }
+  .banner_content {
+    row-gap: 40px;
+  }
+  .banner_btn .button {
+    font-size: 16px;
+  }
+  #excitement {
+    padding: 50px 0;
+  }
+  #excitement .SectionHeading {
+    font-size: 33px;
+    max-width: 380px;
+  }
+  .excitement_content button {
+    padding: 18px 30px;
+  }
+  .excitement_images {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  #excitement_counter {
+    margin: 30px 0 60px 0;
+  }
+  .excitement_counter_wrapper {
+    justify-content: space-between;
+    gap: 20px 0;
+  }
+  .Ex_Counter_box {
+    width: 47.7%;
+  }
+  #sports_activities {
+    padding: 80px 0;
+  }
+  .sports_activities_bottom_Heading {
+    font-size: 65px;
+  }
+  .sports_activities_content_right {
+    width: 90%;
+  }
+  .sports_activities_cards {
+    justify-content: center;
+    row-gap: 30px;
+    padding-bottom: 40px;
+  }
+  #adventures {
+    padding-top: 60px;
+  }
+  .adventures_logo {
+    width: 90px;
+  }
+  .adventures_content .SectionHeading {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .adventures_content .h4 {
+    font-size: 22px;
+  }
+  .advaentures_buttons {
+    margin-top: 35px;
+  }
+  .advaentures_buttons .button:last-child {
+    padding: 20px 18px 20px 18px;
+  }
+  .adventures_cards {
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+  }
+  .adventures_card {
+    width: 400px;
+  }
+  .adventures_card_overlayer {
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+  .adventures_card h3 {
+    font-size: 30px;
+  }
+  .adventures_card h4 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 35px;
+  }
+  .logo {
+    width: 190px;
+  }
+  menu,
+  .nav_btn {
+    display: none;
+  }
+  .nav_wrapper .bar_icon {
+    display: block;
+  }
+  #banner {
+    padding: 240px 0 150px 0;
+  }
+  .banner_content .heading_text {
+    font-size: 48px;
+    max-width: 550px;
+  }
+  #excitement .SectionHeading {
+    font-size: 42px;
+    max-width: 480px;
+  }
+  .excitement_images {
+    margin-top: 50px;
+  }
+  #excitement_counter {
+    margin: 30px 0 80px 0;
+  }
+  .excitement_counter_wrapper {
+    justify-content: space-between;
+    gap: 30px 0;
+  }
+  .Ex_Counter_box {
+    width: 47.7%;
+  }
+  #sports_activities {
+    padding: 80px 0;
+  }
+  .sports_activities_bottom_Heading {
+    font-size: 75px;
+  }
+  .sports_activities_cards {
+    row-gap: 40px;
+    padding-bottom: 50px;
+  }
+  .sports_activities_card {
+    width: 47.5%;
+  }
+  #adventures {
+    padding-top: 80px;
+  }
+  .adventures_content .h4 {
+    font-size: 25px;
+  }
+  .advaentures_buttons {
+    margin-top: 35px;
+  }
+  .adventures_cards {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .adventures_card {
+    width: 48%;
+  }
+  .adventures_card_overlayer {
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+  .adventures_card h3 {
+    font-size: 30px;
+  }
+  .adventures_card h4 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 0 40px;
+  }
+  .logo {
+    width: 200px;
+  }
+  .nav_btn {
+    display: none;
+  }
+  #banner {
+    padding-top: 250px;
+  }
+  .banner_content .heading_text {
+    font-size: 58px;
+    max-width: 670px;
+  }
+  #excitement .SectionHeading {
+    font-size: 46px;
+    max-width: 520px;
+  }
+  .excitement_images {
+    margin-top: 50px;
+  }
+  #excitement_counter {
+    margin-bottom: 100px;
+  }
+  .excitement_counter_wrapper {
+    justify-content: space-between;
+    gap: 30px 0;
+  }
+  .Ex_Counter_box {
+    width: 23.7%;
+  }
+  .Ex_Counter_box h4 {
+    font-size: 60px;
+  }
+  #sports_activities {
+    padding: 80px 0;
+  }
+  .sports_activities_bottom_Heading {
+    font-size: 85px;
+  }
+  .sports_activities_card {
+    width: 31.5%;
+    height: 450px;
+  }
+  .adventures_content .h4 {
+    font-size: 28px;
+  }
+  .adventures_card {
+    width: 32%;
+    height: 420px;
+  }
+  .adventures_card_overlayer {
+    padding-left: 30px;
+    padding-bottom: 25px;
+  }
+  .adventures_card h3 {
+    font-size: 30px;
+  }
+  .adventures_card h4 {
+    font-size: 23px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    padding: 0 40px;
+  }
+  .excitement_wrapper {
+    flex-wrap: nowrap;
+  }
+  .excitement_content {
+    max-width: 450px;
+  }
+  #excitement .SectionHeading {
+    font-size: 38px;
+  }
+  .excitement_images {
+    gap: 30px;
+  }
+  .excitement_counter_wrapper {
+    justify-content: space-between;
+    gap: 30px 0;
+  }
+  .Ex_Counter_box {
+    width: max(23.7%, 268.7px);
+  }
+  .sports_activities_content {
+    flex-wrap: nowrap;
+  }
+  .sports_activities_card {
+    width: 31.5%;
+  }
+  .sports_activities_bottom_Heading {
+    font-size: 100px;
+  }
+  .adventures_card {
+    width: 32%;
+    height: 450px;
+  }
+  .adventures_card_overlayer {
+    padding-left: 40px;
+    padding-bottom: 30px;
+  }
+  .adventures_card h3 {
+    font-size: 35px;
+  }
+  .adventures_card h4 {
+    font-size: 24px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    padding: 0;
+  }
+  .sports_activities_content {
+    flex-wrap: nowrap;
+  }
+}
