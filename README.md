@@ -1,1 +1,1 @@
-live link: https://app.netlify.com/teams/nurul-imran/projects
+live link: https://extreme-sports-2025.netlify.app/
