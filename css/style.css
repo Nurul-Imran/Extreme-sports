@@ -456,4 +456,63 @@ button{
     width: 30px;
     height: 30px;
  }
-  /* New Adventures Section CSS End */ 
+  /* New Adventures Section CSS End */
+  
+  /*   <!-- Benefits Section CSS Start --> */
+  #benefits{
+    padding: 192px 0 54px;
+  }
+  .benefits_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 54px;
+  }
+  .benefits_content .SectionSubHeading{
+    color: #14B9F1;
+    margin-bottom: 5px;
+  }
+  .benefits_content .SectionHeading{
+    position: relative;
+  }
+  .benefits_content .SectionHeading::after{
+    position: absolute;
+    content: '';
+    bottom: -26px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 2px;
+    background-color: #A0A0A0;
+  }
+  .benefits_boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .benefits_box{
+    width: 312px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .benefits_img{
+    width: 130px;
+  }
+  .benefits_box h3{
+    font-size: 24px;
+    text-transform: capitalize;
+    margin: 56px 0 16px;
+    max-width: 280px;
+  }
+  .benefits_box p{
+    max-width: 275px;
+  }
+  /*   <!-- Benefits Section CSS End --> */

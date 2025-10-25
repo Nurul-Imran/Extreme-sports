@@ -133,6 +133,17 @@
     font-size: 22px;
     margin-top: 15px;
   }
+  #benefits {
+    padding: 50px 0 30px;
+  }
+  .benefits_boxes {
+    justify-content: center;
+    row-gap: 10px;
+  }
+  .benefits_box h3 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -240,6 +251,16 @@
     font-size: 22px;
     margin-top: 15px;
   }
+  #benefits {
+    padding-top: 60px;
+  }
+  .benefits_boxes {
+    justify-content: center;
+    row-gap: 10px;
+  }
+  .benefits_box h3 {
+    margin-top: 35px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -320,6 +341,13 @@
     font-size: 22px;
     margin-top: 15px;
   }
+  #benefits {
+    padding-top: 70px;
+  }
+  .benefits_boxes {
+    max-width: 670px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -387,6 +415,15 @@
     font-size: 23px;
     margin-top: 15px;
   }
+  #benefits {
+    padding-top: 80px;
+  }
+  .benefits_box {
+    width: 31.5%;
+  }
+  .benefits_box h3 {
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -436,6 +473,12 @@
     font-size: 24px;
     margin-top: 15px;
   }
+  #benefits {
+    padding-top: 90px;
+  }
+  .benefits_box {
+    width: 31.5%;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -443,6 +486,9 @@
     padding: 0;
   }
   .sports_activities_content {
+    flex-wrap: nowrap;
+  }
+  .benefits_boxes {
     flex-wrap: nowrap;
   }
 }
