@@ -144,7 +144,7 @@
     font-size: 22px;
     margin-top: 30px;
   }
-  
+
   /* sports news responsibe css code */
   #sports_news {
     padding: 60px 0;
@@ -172,6 +172,17 @@
   }
   .sports_news_card_content p {
     font-size: 16px;
+  }
+
+  /* sponsore section css */
+  #sponsor {
+    padding: 50px 0;
+  }
+  .sponsor_wrapper {
+    gap: 35px;
+  }
+  .sponsor_wrapper > img {
+    width: 90px;
   }
 }
 
@@ -291,8 +302,8 @@
     margin-top: 35px;
   }
 
-   /* sports news responsibe css code */
-    #sports_news {
+  /* sports news responsibe css code */
+  #sports_news {
     padding: 70px 0;
   }
   .sports_news_content {
@@ -301,6 +312,7 @@
   }
   .sports_news_cards {
     justify-content: center;
+    row-gap: 25px;
   }
   .sports_news_card {
     max-width: 380px;
@@ -317,6 +329,17 @@
   }
   .sports_news_card_content p {
     font-size: 16px;
+  }
+
+  /* sponsore section css */
+  #sponsor {
+    padding: 60px 0;
+  }
+  .sponsor_wrapper {
+    gap: 45px;
+  }
+  .sponsor_wrapper > img {
+    width: 100px;
   }
 }
 
@@ -407,7 +430,7 @@
   }
 
   /* sports news responsibe css code */
-    #sports_news {
+  #sports_news {
     padding: 80px 0;
   }
   .sports_news_content {
@@ -435,6 +458,17 @@
   }
   .sports_news_card_content p {
     font-size: 16px;
+  }
+
+  /* sponsore section css */
+  #sponsor {
+    padding: 70px 0;
+  }
+  .sponsor_wrapper {
+    gap: 50px;
+  }
+  .sponsor_wrapper > img {
+    width: 110px;
   }
 }
 
@@ -513,8 +547,8 @@
     font-size: 22px;
   }
 
-   /* sports news responsibe css code */
-    #sports_news {
+  /* sports news responsibe css code */
+  #sports_news {
     padding: 90px 0;
   }
   .sports_news_content {
@@ -540,6 +574,14 @@
   }
   .sports_news_card_content p {
     font-size: 16px;
+  }
+
+  /* sponsore section css */
+  #sponsor {
+    padding: 80px 0;
+  }
+  .sponsor_wrapper > img {
+    width: 120px;
   }
 }
 
@@ -598,7 +640,7 @@
   }
 
   /* sports news responsibe css code */
-    #sports_news {
+  #sports_news {
     padding: 90px 0;
   }
   .sports_news_cards {
@@ -625,7 +667,15 @@
   .sports_news_content {
     flex-wrap: nowrap;
     column-gap: 80px;
-}
+  }
+
+  /* sponsore section css */
+  #sponsor {
+    padding: 90px 0;
+  }
+  .sponsor_wrapper > img {
+    width: 130px;
+  }
 }
 
 @media (min-width: 1400px) {

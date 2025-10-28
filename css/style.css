@@ -603,3 +603,19 @@ button{
 
 
   /* sports news section css End */
+
+  /* sponsore section css start */
+  #sponsor{
+    padding: 104px 0;
+  }
+  .sponsor_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 60px;
+    overflow-x: auto;
+  }
+  .sponsor_wrapper > img{
+    width: 150px;
+  }
+  /* sponsore section css end */
