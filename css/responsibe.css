@@ -144,6 +144,35 @@
     font-size: 22px;
     margin-top: 30px;
   }
+  
+  /* sports news responsibe css code */
+  #sports_news {
+    padding: 60px 0;
+  }
+  .sports_news_content {
+    row-gap: 20px;
+    margin-bottom: 80px;
+  }
+  .sports_news_cards {
+    row-gap: 30px;
+    justify-content: center;
+  }
+  .sports_news_card {
+    max-width: 350px;
+    height: auto;
+  }
+  .sports_news_card_content {
+    padding: 30px 20px;
+  }
+  .sports_news_card_content h3 {
+    font-size: 20px;
+  }
+  .sports_news_card_content hr {
+    margin: 30px 0 20px;
+  }
+  .sports_news_card_content p {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -261,6 +290,34 @@
   .benefits_box h3 {
     margin-top: 35px;
   }
+
+   /* sports news responsibe css code */
+    #sports_news {
+    padding: 70px 0;
+  }
+  .sports_news_content {
+    row-gap: 20px;
+    margin-bottom: 90px;
+  }
+  .sports_news_cards {
+    justify-content: center;
+  }
+  .sports_news_card {
+    max-width: 380px;
+    height: auto;
+  }
+  .sports_news_card_content {
+    padding: 40px 30px;
+  }
+  .sports_news_card_content h3 {
+    font-size: 22px;
+  }
+  .sports_news_card_content hr {
+    margin: 30px 0 20px;
+  }
+  .sports_news_card_content p {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -348,6 +405,37 @@
     max-width: 670px;
     margin: auto;
   }
+
+  /* sports news responsibe css code */
+    #sports_news {
+    padding: 80px 0;
+  }
+  .sports_news_content {
+    row-gap: 25px;
+    margin-bottom: 90px;
+  }
+  .sports_news_cards {
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+  }
+  .sports_news_card {
+    max-width: 424px;
+    width: 48.5%;
+    height: auto;
+  }
+  .sports_news_card_content {
+    padding: 40px 30px;
+  }
+  .sports_news_card_content h3 {
+    font-size: 22px;
+  }
+  .sports_news_card_content hr {
+    margin: 30px 0 20px;
+  }
+  .sports_news_card_content p {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -424,6 +512,35 @@
   .benefits_box h3 {
     font-size: 22px;
   }
+
+   /* sports news responsibe css code */
+    #sports_news {
+    padding: 90px 0;
+  }
+  .sports_news_content {
+    row-gap: 30px;
+  }
+  .sports_news_cards {
+    row-gap: 30px;
+    justify-content: space-between;
+  }
+  .sports_news_card {
+    max-width: 424px;
+    width: 32.5%;
+    height: auto;
+  }
+  .sports_news_card_content {
+    padding: 20px;
+  }
+  .sports_news_card_content h3 {
+    font-size: 20px;
+  }
+  .sports_news_card_content hr {
+    margin: 30px 0 20px;
+  }
+  .sports_news_card_content p {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -479,6 +596,36 @@
   .benefits_box {
     width: 31.5%;
   }
+
+  /* sports news responsibe css code */
+    #sports_news {
+    padding: 90px 0;
+  }
+  .sports_news_cards {
+    row-gap: 30px;
+    justify-content: space-between;
+  }
+  .sports_news_card {
+    max-width: 424px;
+    width: 32.5%;
+    height: auto;
+  }
+  .sports_news_card_content {
+    padding: 40px 20px;
+  }
+  .sports_news_card_content h3 {
+    font-size: 24px;
+  }
+  .sports_news_card_content hr {
+    margin: 30px 0 20px;
+  }
+  .sports_news_card_content p {
+    font-size: 16px;
+  }
+  .sports_news_content {
+    flex-wrap: nowrap;
+    column-gap: 80px;
+}
 }
 
 @media (min-width: 1400px) {
